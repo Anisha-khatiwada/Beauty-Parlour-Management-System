@@ -1,0 +1,70 @@
+/* Booking Form Styles */
+.map-content-9 form {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.map-content-9 .form-group {
+    margin-bottom: 25px;
+}
+
+.map-content-9 label {
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 8px;
+    display: block;
+    font-size: 14px;
+}
+
+.map-content-9 .form-control {
+    height: 50px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 10px 15px;
+    font-size: 15px;
+    transition: all 0.3s ease;
+}
+
+.map-content-9 .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+    outline: none;
+}
+
+.map-content-9 textarea.form-control {
+    height: auto;
+    resize: vertical;
+}
+
+.map-content-9 .btn-contact {
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+.map-content-9 .btn-contact:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(102,126,234,0.4);
+}
+
+/* Date and Time Input Icons */
+.map-content-9 input[type="date"],
+.map-content-9 input[type="time"] {
+    cursor: pointer;
+}
+
+.map-content-9 input[type="date"]::-webkit-calendar-picker-indicator,
+.map-content-9 input[type="time"]::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+    font-size: 18px;
+}
